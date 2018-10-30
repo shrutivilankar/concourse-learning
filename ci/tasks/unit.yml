@@ -6,6 +6,9 @@ image_resource:
   source:
     repository: my.local.registry:8888/shrutivilankar/concoursedocker
     insecure_registries: ["my.local.registry:8888"]
+    username: shrutivilankar
+    password: Sukh@10cr
+    email: shruti.vilankar@gmail.com
     tag: "latest"
 
 inputs:
