@@ -92,7 +92,7 @@ jobs:
     serial: true
     plan:
     - get: git-repo
-      passed: [unit-tests]
+      #passed: [unit-tests]
       trigger: true
     - get: trigger-build
       trigger: true
