@@ -4,7 +4,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: shrutivilankar/concoursedocker:v1
+    repository: shrutivilankar/concoursedocker:latest
     
 inputs:
   - name: git-repo
